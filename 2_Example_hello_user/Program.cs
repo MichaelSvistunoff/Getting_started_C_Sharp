@@ -2,4 +2,3 @@
 string userName = Console.ReadLine();       // Initial user name
 
 Console.WriteLine($"Hello, {userName}!");   // Print user name
-
