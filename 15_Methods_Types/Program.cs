@@ -2,7 +2,6 @@
 void Method1() {
     Console.WriteLine("Author: Michael Svistunov");
 }
-
 Method1();
 
 //Функции в программировании, тип 2
@@ -27,7 +26,7 @@ int Method3() {
 int year = Method3();
 Console.WriteLine(year);
 
-// Функции в программировании, тип 4
+// Функции в программировании, тип 4 (while)
 string Method4(int count, string text) {
     int i = 0;
     string result = String.Empty;
@@ -40,3 +39,16 @@ string Method4(int count, string text) {
 }
 string res = Method4(10, "qwer ");
 Console.WriteLine(res);
+
+// Функции в программировании, тип 4 (for)
+string Method41(int count, string text) {
+    
+    string result = String.Empty;
+
+    for (int i=0; i<count; i++) {
+        result = result + text;
+    }
+    return result;
+}
+string res41 = Method41(10, "qwerty ");
+Console.WriteLine(res41);
